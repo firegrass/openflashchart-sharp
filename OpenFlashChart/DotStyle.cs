@@ -74,6 +74,8 @@ namespace OpenFlashChart
 			get { return dotsize; }
 			set { dotsize = value; }
 		}
+		[JsonProperty("halo-size")]
+		public int? HaloSize { get; set; }
 		[JsonProperty("on-click")]
 		public string OnClick {
 			get { return onclick; }
